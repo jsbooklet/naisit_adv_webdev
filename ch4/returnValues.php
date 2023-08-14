@@ -1,5 +1,7 @@
-<h2>Nozzeli's Pasta</h2>
-<h3>Checkout</h3>
+<html>
+<body>
+    <h2>Nozzeli's Pasta</h2>
+    <h3>Checkout</h3>
 <?php
     // Main execution
     $prod_price = 50.77;
@@ -29,3 +31,5 @@
     }
 
 ?>
+</body>
+</html>

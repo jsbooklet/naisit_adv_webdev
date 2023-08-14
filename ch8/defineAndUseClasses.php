@@ -1,5 +1,9 @@
 <?php 
     class Animal {
+        // Properties
+        public $furColor;
+        private $runSpeed;
+
         public function jump(): string{
             return "jumping";
         }
@@ -11,7 +15,6 @@
         public function eat(): string{
             return "eating";
         }
-        
     }
 
     // Instantiate 3 new objects from the class

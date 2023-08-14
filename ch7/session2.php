@@ -2,6 +2,9 @@
 <body>
 
 <?php
+    // Start the session
+    session_start();
+
     // Eg. User entered "peter.chong"
     $username_entered = $_POST["username"]; 
     $password_entered = $_POST["password"]; 
